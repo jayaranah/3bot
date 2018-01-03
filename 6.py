@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="")
+cl.login(token="Eo5glS6gqePPimxbqnq3.nBT543FxoLpZYt29i8ceSW.t6TFB5wJt49nd2G9KEj5AWIX8DqrkrT8B2l9EUGPDms=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="")
+ki.login(token="EozoAME7KNyt3ewLYPs5.4rKGviaiWRJ5DCBItMOEXq.3zPaYXc6ks+LrBI9/EFXR7hHN72O05WUjxFyQNAso08=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="")
+ki2.login(token="EoceQq78PzzJWFGvJPRd.P2aClM+I9p69+RZN6xQ4Vq.q+UfhgEZqjLcN7RtTEHf0QvhA+O0iGa1hjheBw3PqqY=")
 ki2.loginResult()
 
 print "login success plak"
@@ -73,9 +73,9 @@ KAC=[cl,ki,ki2]
 mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
-Bots=[mid,kimid,ki2mid]
-owner =[""]
-admin = [""]
+Bots=[mid,kimid,ki2mid,"ubd4733f0bfa9782cbde32e03e3e0707"]
+owner =["ubd4733f0bfa9782cbde32e03e3e0707"]
+admin = ["ubd4733f0bfa9782cbde32e03e3e0707"]
 wait = {
     'contact':False,
     'autoJoin':True,
